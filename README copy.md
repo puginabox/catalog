@@ -1,4 +1,0 @@
-grunt-starter
-=============
-
-Grunt Scaffolding
