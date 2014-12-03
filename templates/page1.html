@@ -1,20 +1,13 @@
-<section class="row stone">
+<article class="row stone">
     <h1 class="large-6 large-offset-3 panel">{{object.name}}<br/>
         {{object.color}}
     </h1>
-    <article role="banner" class="large-6 large-offset-3 panel">
 
-
-
-
-    </article>
-    
-    
-    <nav class="large-4 panel large-offset-4">
-        <ul class="inline-list row">
-            <li><a href="#/{{person.page}}">{{person.title}}</a></li>
+    <section class="row">
+        <ul class="inline-list large-10 panel large-offset-1">
+            <li ng-repeat="flower in object">{{flower.name}}, color of {{flower.color}}
+            </li>
         </ul>
-    </nav>
-    
-    
-</section>
+    </section>
+    <hr>
+</article>
